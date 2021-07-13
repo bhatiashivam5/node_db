@@ -1,5 +1,5 @@
 module.exports = (sequelize,Sequelize)=>{
-    const Role  = sequelize.define('Role',{
+    const role  = sequelize.define('role',{
         role_id:{
             type:Sequelize.INTEGER,
             allowNULL:false,
@@ -14,6 +14,6 @@ module.exports = (sequelize,Sequelize)=>{
         timestamps: false,
     }
     )
-    return Role;
+    return role;
 }
 

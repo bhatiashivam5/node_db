@@ -3,7 +3,8 @@ const { QueryTypes } = require('sequelize');
 const db = require('../models');
 const { authemp } = require('../validation/auth_emp');
 const User = db.Users;
-const Roles = db.Role;
+const Roles = db.role;
+
 const Emp = db.Emp;
 const EMP_department = db.EMP_department;
 const EMP_salary = db.EMP_salary;
